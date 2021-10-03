@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="Achievement" width="50" height="50" version="0.1" uid="025F4347-40FE-F09D-7491-C06BB52BA1CB">
+  <window>
+    <container x="0" y="0" width="50" height="50" params="16" style="0" name="achievement_container" color="0x0c9c9c9">
+      <children>
+        <border x="0" y="0" width="44" height="44" params="17" style="0" name="bg" color="0x0c9c9c9"/>
+        <bitmap x="3" y="3" width="38" height="38" params="16" style="0" name="achievement_pic_bitmap"/>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="Achievements" width="451" height="295" version="0.1" uid="7943BF4B-3BDD-7940-461E-C076D9652DD0">
+  <window>
+    <frame x="0" y="0" width="451" height="295" params="32769" style="3" name="quest_main_window" caption="%24%7Binventory.achievements%7D" color="0xff418db0">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <container x="8" y="8" width="427" height="10" params="144" style="0" name="categories_cont"/>
+        <border x="8" y="8" width="427" height="41" params="144" style="0" name="achievements_header_cont" visible="false">
+          <children>
+            <html x="10" y="8" width="283" height="24" params="129" style="0" name="category_name_txt" caption="Category%20Name%20Placeholder">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="20" type="uint"/>
+                <var key="text_color" value="0x666666" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <button_thick x="313" y="6" width="108" height="29" params="131153" style="3" name="back_button" caption="%24%7Bgeneric.back%7D" width_min="108" width_max="108"/>
+          </children>
+        </border>
+        <container x="8" y="8" width="427" height="10" params="144" style="0" name="achievements_cont" visible="false"/>
+        <border x="8" y="8" width="427" height="94" params="144" style="0" name="achievement_cont">
+          <children>
+            <html x="71" y="8" width="348" height="24" params="128" style="0" name="achievement_name_txt" caption="Achievement%20Name%20Placeholder">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="13" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <bitmap x="20" y="27" width="38" height="38" params="16" style="0" name="achievement_pic_bitmap"/>
+            <html x="71" y="25" width="343" height="47" params="128" style="0" name="achievement_desc_txt" caption="Achievement%20Desc%3A%20pasdsad%20sadaddsad%20sadsa%20as%20dasd%20sad%20asd%20sada%20sdas%20das%20dsad%20sad%20asd%20asd%20ad%20ada%20sdas%20dsa%20das%20dsa%20dsad%20jhg%20jhg%20jh%20gjh%20gjh%20g">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <html x="71" y="70" width="348" height="19" params="128" style="0" name="progress_txt" caption="Progress%201/20%20blah%20items">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+          </children>
+        </border>
+        <border x="8" y="8" width="427" height="10" params="144" style="0" name="footer_cont" visible="false"/>
+      </children>
+    </frame>
+  </window>
+</layout>
